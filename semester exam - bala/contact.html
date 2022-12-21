@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+    height: 100vh;
+}
+header{
+  height: 20%;
+  font-size: 120%;
+    margin-left: 0%;
+    color:black;
+    background-image: linear-gradient(to left, rgba(255,0,0,1), rgb(233, 44, 160));
+}
+header p{
+    font-weight: bold;
+    font-size: 150%;
+}
+header img{
+  float: left;
+  padding-left:3%;
+  height:70%;
+  width: 12%;
+}
+
+.nav-container {
+  margin: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2%;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 0%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   margin-right: 2%;
+   float: right;
+  }
+  .topnav a:hover {
+    background-color:orange;
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+    /* contact start */
+    #contact{
+    color: white;
+    background:  rgb(233, 44, 160);
+    padding-top: 50px;
+    padding-left: 2%;
+    margin-top: -1%;
+}
+.contact-left{
+    flex-basis: 35%;
+    font-family: sans-serif;
+}
+.contact-left h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: 500;
+    color: black;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left p i{
+    color: black;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.btn.btn2{
+    background: white;
+    display: inline-block;
+}
+.contact-right form {
+    width: 100%;
+   
+
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: white;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+  
+  /* contact end */
+
+  /* footer start */
+footer{
+  background-image: linear-gradient(to left, rgba(255,1,0,1), rgb(233, 0, 128));
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+}
+footer .contact1{
+    text-align: left;
+    margin-left: 1%;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/car3.png" alt="no">
+        <h1>Cars Collection</h1>
+    </header>
+        <div class="nav-container"> 
+        <div class="topnav" id="myTopnav">
+            <a href="#home" target="_blank">Home</a>
+            <a href="model.html" target="_blank">CarsModels</a>
+            <a href="digital.html" target="_blank">Price</a>
+            <a href="#contact">Contact</a>
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+ <div id="contact">
+    <div class="contenier">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><center>Contact</center></h1>
+                <p>Mail Id : balamurugan1891@gmail.com</p>
+                <p>Phone No : 9345725774</p>
+                                
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- contact section ends -->
+
+
+        <footer id="contact1">
+            
+            <p class="Copyright">&copy;All Rights Reseverd <br> by <br> BALAMURUGAN K</p>
+        </footer>
+</body>
+</html>
